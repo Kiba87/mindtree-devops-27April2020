@@ -1,11 +1,11 @@
 node {
 // Get Artifactory server instance, defined in the Artifactory Plugin administration page.
-    def server = Artifactory.server "01"
+    def server = Artifactory.server "Art-01"
     def buildInfo = Artifactory.newBuildInfo() 
 
  
   stage('GIT CheckOut') {
-    git branch: 'development ', url: 'https://github.com/amitvashisttech/mindtree-devops-27April2020.git'
+    git branch: 'development ', url: 'https://github.com/Kiba87/mindtree-devops-27April2020.git'
   }
 
   def project_path = "petclinic-code"
