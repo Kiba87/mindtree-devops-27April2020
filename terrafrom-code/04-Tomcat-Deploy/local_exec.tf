@@ -7,6 +7,8 @@ terraform {
 
 provider "aws" {
   region = "us-east-1"
+  access_key = "AKIAXQHX55V5CWHF4CBY"
+  secret_key = "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"
 }
 
 resource "aws_instance" "backend" {
