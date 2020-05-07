@@ -28,9 +28,9 @@ node {
   sh label: 'Jenkins', script: "echo '<h1> TASK BUILD ID: ${env.BUILD_DISPLAY_NAME}</h1>' > files/jenkins.html"
 }
 
-# stage('Petclinic Ansible Deployment - PROD') {
-#            sh label: '', script: 'ansible-playbook playbook.yaml'
-#        }
+// stage('Petclinic Ansible Deployment - PROD') {
+//           sh label: '', script: 'ansible-playbook playbook.yaml'
+//        }
 
 
  }
