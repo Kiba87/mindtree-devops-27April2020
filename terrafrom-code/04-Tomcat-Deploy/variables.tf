@@ -2,9 +2,9 @@ variable "key_name" {
   default = "Mykey"
 }
 
-##variable "pvt_key" {
-#  default = "/root/.ssh/balu-aws.pem"
-#}
+variable "pvt_key" {
+  default = "/root/.ssh/balu-aws.pem"
+}
 
 variable "us-east-zones" {
   default = ["us-east-1a", "us-east-1b"]
